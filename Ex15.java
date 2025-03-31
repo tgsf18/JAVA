@@ -1,16 +1,15 @@
-import java.util.Scanner;
-
-public class Ex15 {
+/**
+ 
+  Escreva um programa que calcule a soma dos números de 1 a 15.
+  
+  **/
+  
+  public class Ex15 {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
-
-        System.out.print("Digite um número para ver a tabuada: ");
-        int numero = ler.nextInt();
-
-        System.out.println("Tabuada do " + numero + ":");
-        for (int i = 1; i <= 10; i++) {
-            int resultado = numero * i;
-            System.out.println(numero + " x " + i + " = " + resultado);
+        int soma = 0;
+        for (int i = 1; i <= 15; i++) {
+            soma += i;
         }
+        System.out.println("A soma dos números de 1 a 15 é: " + soma);
     }
 }
