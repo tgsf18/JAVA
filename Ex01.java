@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Ex01
 {
     public static void main(String[] args) {
-    //Declarar variáveis
     double a, b, med;
     Scanner ler = new Scanner(System.in);
     
