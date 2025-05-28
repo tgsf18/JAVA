@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class MatrizPar {
+public class MatrizEx1 {
     public static void main(String[] args) {
         int[][] matriz = new int[5][5];
         Random rand = new Random();
