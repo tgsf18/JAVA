@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class MaiorMenor {
+public class MatrizEx3{
     public static void main(String[] args) {
         int[][] matriz = new int[6][3];
         Random rand = new Random();
