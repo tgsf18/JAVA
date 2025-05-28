@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class SomaMatrizes {
+public class MatrizeEx5 {
     public static void main(String[] args) {
         int[][] matriz1 = new int[5][2];
         int[][] matriz2 = new int[5][2];
