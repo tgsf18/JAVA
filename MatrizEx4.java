@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MatrizTransposta {
+public class MatrizEx4 {
     public static void main(String[] args) {
         int[][] matriz = new int[3][3];
         int[][] transposta = new int[3][3];
