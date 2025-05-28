@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SomaColunas {
+public class MatrizEx2 {
     public static void main(String[] args) {
         int[][] matriz = new int[3][3];
         Scanner scanner = new Scanner(System.in);
