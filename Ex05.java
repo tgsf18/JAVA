@@ -1,30 +1,16 @@
 import java.util.Scanner;
-
 public class Ex05 {
+    public static void main(String[] args){
+        Scanner ler = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String nomes[] = new String [5];
 
-        // Solicitar informações do usuário
-        System.out.print("Informe o valor do empréstimo: ");
-        double valorEmprestimo = scanner.nextDouble();
-
-        System.out.print("Informe o número de parcelas: ");
-        int numeroParcelas = scanner.nextInt();
-
-        System.out.print("Informe o salário do solicitante: ");
-        double salario = scanner.nextDouble();
-
-        // Calcular o valor da parcela
-        double valorParcela = valorEmprestimo / numeroParcelas;
-
-        // Verificar se o valor da parcela não ultrapassa 30% do salário
-        if (valorParcela <= salario * 0.3) {
-            System.out.println("Empréstimo aprovado!");
-        } else {
-            System.out.println("Empréstimo negado! O valor da parcela excede 30% do salário.");
+        for(int i=0;i<5;i++){
+            System.out.println("Informe o " + i + "° Nome:");
+            nomes[i] = ler.next();
         }
-
-        scanner.close();
+        for(int i=0; i<5; i++){
+            System.out.println("Os nomes são " + nomes[i]);
+        }
     }
 }

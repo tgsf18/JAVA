@@ -1,19 +1,18 @@
 import java.util.Scanner;
-public class Ex01
-{
-    public static void main(String[] args) {
-    double a, b, med;
-    Scanner ler = new Scanner(System.in);
-    
-    System.out.println("Informe a nota de sua primeira prova :");
-    a = ler.nextDouble ();
-    
-    System.out.println("Informe a nota de sua segunda prova :");
-    b = ler.nextDouble ();
-    
-    med = (a + b ) /2;
-    
-    System.out.println(" Sua média é de " + med);
-    }
-}
-    
+public class Ex01{
+    public static void main(String[]args){
+        Scanner ler = new Scanner (System.in);
+        int a, b;
+        System.out.print("Informe o primeiro valor:");
+        a = ler.nextInt();
+        System.out.print("Informe o segundo valor:");
+        b = ler.nextInt();
+
+        System.out.println("Resultados:");
+        System.out.println("Soma:"+ (a+b));
+        System.out.println("Subtração:"+ (a-b));
+        System.out.println("Multiplicação:"+ (a*b));
+        System.out.println("Divisão inteira:"+ (a%b));
+        System.out.println("Divisão Exata:"+ ((double)a/b));
+
+    }}

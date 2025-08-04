@@ -1,19 +1,19 @@
 import java.util.Scanner;
-
 public class Ex06 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args){
+        Scanner ler = new Scanner(System.in);
+        int soma =0;
+        int v[] = new int [10];
 
-        // Solicita ao usuário um número inteiro
-        System.out.print("Digite um número inteiro: ");
-        int numero = scanner.nextInt();
-
-        // Verifica se o número é par ou ímpar
-        if (numero % 2 == 0) {
-            System.out.println("O número " + numero + " é par.");
-        } else {
-            System.out.println("O número " + numero + " é ímpar.");
+        for(int i=0;i<10;i++){
+            System.out.println("Informe o " + i + "° Valor:");
+            v[i] = ler.nextInt();
+            soma = soma + v[i];
         }
-
-}
+        if( soma >15){
+            System.out.println("A soma dos valores do vetor é: " + soma);
+        }else{
+            System.out.println("A soma dos valores é menor que 10");
+        }
+    }
 }
